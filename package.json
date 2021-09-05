@@ -1,0 +1,18 @@
+{
+  "name": "react-cdn-babel-cli-demo",
+  "version": "1.0.0",
+  "description": "References",
+  "main": "main.js",
+  "scripts": {
+    "watch": "npx babel --watch main.jsx --out-dir build/development --presets react-app/dev",
+    "dist": "npx babel main.jsx --out-dir build/production --presets react-app/prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
